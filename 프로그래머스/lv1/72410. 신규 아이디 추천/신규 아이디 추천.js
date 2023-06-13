@@ -36,5 +36,3 @@ function solution(new_id) {
     }
     return answer;
 }
-
-const new_id = "...!@BaT#*..y.abcdefghijklm."
