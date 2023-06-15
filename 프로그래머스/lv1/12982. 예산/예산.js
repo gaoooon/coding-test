@@ -5,9 +5,7 @@ function solution(d, budget) {
     return number1 - number2;
   });
   for (let num = 0; num < d.length; num++) {
-    if (temp < 0) {
-      break;
-    } else if (0 < temp && d[num] <= temp) {
+    if (0 < temp && d[num] <= temp) {
       temp -= d[num];
       result++;
     }
